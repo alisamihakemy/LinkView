@@ -12,9 +12,20 @@ publishing {
             artifactId = "library"
             version = "1.0.0"
 
+            artifact("$buildDir/outputs/aar/linkView.aar")  // Adjust this path as needed
+        }
+    }
+    repositories {
+        maven {
+            url = uri("https://github.com/alisamihakemy/LinkView.git")  // Replace with your repository URL
+            credentials {
+                username = "alisamihakemy"
+                password = "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"
+            }
         }
     }
 }
+
 android {
     namespace = "com.madar.linkview"
     compileSdk = 34
