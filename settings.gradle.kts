@@ -16,7 +16,17 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://maven.pkg.github.com/alisamihakemy/LinkView")  // Your Maven repository URL
+            credentials {
+                username = "alisamihakemy"
+                password = "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"
+            }
+        }
     }
+
 }
 
 rootProject.name = "LinkView"

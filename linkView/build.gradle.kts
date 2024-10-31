@@ -9,9 +9,9 @@ plugins {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "madar"
+            groupId = "madar.soft.linkViewer"
             artifactId = "library"
-            version = "1.1.0"
+            version = "1.1.1"
             artifact("$buildDir/outputs/aar/linkView-debug.aar")  // Adjust this path as needed
         }
     }
@@ -33,7 +33,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        minSdk = 24
+        minSdk = 21
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -67,6 +67,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("madar.soft.linkViewer:library:1.1.0")
 
 
 }
