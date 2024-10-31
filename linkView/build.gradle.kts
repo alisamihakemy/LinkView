@@ -22,7 +22,7 @@ publishing {
             credentials {
 
                 username = "alisamihakemy"
-                password = "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"
+                password = "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"
             }
         }
     }
