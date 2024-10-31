@@ -1,0 +1,5 @@
+com.madar.linkview.test.app-core-1.6.1-0 C:\Users\ali\.gradle\caches\transforms-4\cb3d2eff9685a1bfbe0f0db5fd952678\transformed\core-1.6.1\res
+com.madar.linkview.test.app-androidTest-1 C:\Users\ali\AndroidStudioProjects\LinkView\app\build\generated\res\resValues\androidTest\debug
+com.madar.linkview.test.app-mergeDebugAndroidTestResources-2 C:\Users\ali\AndroidStudioProjects\LinkView\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.madar.linkview.test.app-mergeDebugAndroidTestResources-3 C:\Users\ali\AndroidStudioProjects\LinkView\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.madar.linkview.test.app-debugAndroidTest-4 C:\Users\ali\AndroidStudioProjects\LinkView\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
