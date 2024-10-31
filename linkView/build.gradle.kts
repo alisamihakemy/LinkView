@@ -17,7 +17,7 @@ publishing {
     }
     repositories {
         maven {
-            url = uri("https://github.com/alisamihakemy/LinkView.git")  // Replace with your repository URL
+            url = uri("https://maven.pkg.github.com/alisamihakemy/LinkView")  // Replace with your repository URL
             credentials {
                 username = "alisamihakemy"
                 password = "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"
