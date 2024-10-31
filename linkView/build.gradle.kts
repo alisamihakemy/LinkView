@@ -12,7 +12,6 @@ publishing {
             groupId = "com.madar.linkview"
             artifactId = "library"
             version = "1.0.0"
-
             artifact("$buildDir/outputs/aar/linkView-debug.aar")  // Adjust this path as needed
         }
     }
