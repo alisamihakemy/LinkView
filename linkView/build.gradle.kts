@@ -13,7 +13,7 @@ publishing {
             artifactId = "library"
             version = "1.0.0"
 
-            artifact("$buildDir/outputs/aar/linkView.aar")  // Adjust this path as needed
+            artifact("$buildDir/outputs/aar/linkView-debug.aar")  // Adjust this path as needed
         }
     }
     repositories {
