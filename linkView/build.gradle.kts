@@ -22,7 +22,7 @@ publishing {
             credentials {
 
                 username = "alisamihakemy"
-                password = project.findProperty("githubToken").toString()
+                password = "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"
             }
         }
     }
