@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="24"
+8        android:minSdkVersion="21"
 9        android:targetSdkVersion="34" />
 10
 11    <permission
@@ -28,7 +28,7 @@
 20        android:dataExtractionRules="@xml/data_extraction_rules"
 20-->C:\Users\ali\AndroidStudioProjects\LinkView\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
-22        android:extractNativeLibs="false"
+22        android:extractNativeLibs="true"
 23        android:fullBackupContent="@xml/backup_rules"
 23-->C:\Users\ali\AndroidStudioProjects\LinkView\app\src\main\AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
