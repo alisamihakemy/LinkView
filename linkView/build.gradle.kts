@@ -1,8 +1,20 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    `maven-publish`
+
 }
 
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "com.madar.linkview"
+            artifactId = "library"
+            version = "1.0.0"
+
+        }
+    }
+}
 android {
     namespace = "com.madar.linkview"
     compileSdk = 34
