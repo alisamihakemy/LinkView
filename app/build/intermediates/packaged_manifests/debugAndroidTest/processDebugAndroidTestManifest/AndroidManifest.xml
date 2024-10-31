@@ -3,7 +3,7 @@
     package="com.madar.linkview.test" >
 
     <uses-sdk
-        android:minSdkVersion="24"
+        android:minSdkVersion="21"
         android:targetSdkVersion="34" />
 
     <instrumentation
@@ -23,7 +23,7 @@
 
     <application
         android:debuggable="true"
-        android:extractNativeLibs="false" >
+        android:extractNativeLibs="true" >
         <uses-library android:name="android.test.runner" />
 
         <activity

@@ -4,6 +4,14 @@
         "source": "com.madar.linkview.app-main-33:/xml/backup_rules.xml"
     },
     {
+        "merged": "com.madar.linkview.app-debug-31:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.madar.linkview.app-pngs-27:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.madar.linkview.app-debug-31:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.madar.linkview.app-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
         "merged": "com.madar.linkview.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "com.madar.linkview.app-main-33:/mipmap-hdpi/ic_launcher.webp"
     },
@@ -12,12 +20,12 @@
         "source": "com.madar.linkview.app-main-33:/layout/activity_main.xml"
     },
     {
-        "merged": "com.madar.linkview.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.madar.linkview.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.madar.linkview.app-debug-31:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.madar.linkview.app-pngs-27:/drawable-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.madar.linkview.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.madar.linkview.app-main-33:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.madar.linkview.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.madar.linkview.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.madar.linkview.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -36,6 +44,10 @@
         "source": "com.madar.linkview.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.madar.linkview.app-debug-31:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.madar.linkview.app-pngs-27:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "com.madar.linkview.app-debug-31:/drawable_ic_launcher_background.xml.flat",
         "source": "com.madar.linkview.app-main-33:/drawable/ic_launcher_background.xml"
     },
@@ -52,6 +64,10 @@
         "source": "com.madar.linkview.app-main-33:/xml/data_extraction_rules.xml"
     },
     {
+        "merged": "com.madar.linkview.app-debug-31:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.madar.linkview.app-pngs-27:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "com.madar.linkview.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.madar.linkview.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -60,11 +76,19 @@
         "source": "com.madar.linkview.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.madar.linkview.app-debug-31:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.madar.linkview.app-pngs-27:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "com.madar.linkview.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.madar.linkview.app-main-33:/mipmap-mdpi/ic_launcher.webp"
     },
     {
         "merged": "com.madar.linkview.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.madar.linkview.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.madar.linkview.app-debug-31:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.madar.linkview.app-pngs-27:/drawable-ldpi/ic_launcher_foreground.png"
     }
 ]

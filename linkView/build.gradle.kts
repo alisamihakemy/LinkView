@@ -11,7 +11,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "madar.soft.linkViewer"
             artifactId = "library"
-            version = "1.1.1"
+            version = "2.0.0"
             artifact("$buildDir/outputs/aar/linkView-debug.aar")  // Adjust this path as needed
         }
     }

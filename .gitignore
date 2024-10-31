@@ -1,2 +1,19 @@
-# Project exclude paths
-/linkView/build/
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/.idea/
+/.app/.release/
+/.app/.debug/
+/.app/.build/.outputs/
+.idea
+/gdpr/build/
+/app/release/
+/app/debug/
+/.idea/caches/
+*.hprof
