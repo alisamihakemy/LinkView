@@ -19,11 +19,11 @@ publishing {
         maven {
             name ="MadarLikeResolver"
             url = uri("https://maven.pkg.github.com/alisamihakemy/LinkView")  // Replace with your repository URL
-            credentials {
-
-                username = "alisamihakemy"
-                password = project.findProperty("githubToken").toString()
-            }
+//            credentials {
+//
+//                username = "alisamihakemy"
+//                password = project.findProperty("githubToken").toString()
+//            }
         }
     }
 }
