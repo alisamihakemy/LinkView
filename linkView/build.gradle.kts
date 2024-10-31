@@ -11,8 +11,8 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.madar.linkview"
             artifactId = "library"
-            version = "1.0.0"
-            artifact("$buildDir/outputs/aar/linkView-debug.aar")  // Adjust this path as needed
+            version = "1.1.0"
+            artifact("$buildDir/outputs/aar/linkView-release.aar") // Update this if necessary
         }
     }
     repositories {
@@ -67,6 +67,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("com.madar.linkview:library:1.0.0")
 
 
 }
