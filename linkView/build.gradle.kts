@@ -9,7 +9,7 @@ plugins {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "com.madar.linkview"
+            groupId = "madar"
             artifactId = "library"
             version = "1.1.0"
             artifact("$buildDir/outputs/aar/linkView-release.aar") // Update this if necessary
